@@ -23,16 +23,16 @@ function setup() {
     divisions.push(new Division(k,height - divisionHeight/2, 10,divisionHeight));
   }
   for(var j = 15;j <=width; j= j+30){
-    plinkos.push(new Plinko(j,50,10));
+    plinkos.push(new Plinko(j,50,5));
   }
   for(var j = 0;j <=width; j= j+30){
-    plinkos.push(new Plinko(j,100,10));
+    plinkos.push(new Plinko(j,100,5));
   }
   for(var j = 15;j <=width; j= j+30){
-    plinkos.push(new Plinko(j,150,10));
+    plinkos.push(new Plinko(j,150,5));
   }
   for(var j = 0;j <=width; j= j+30){
-    plinkos.push(new Plinko(j,200,10));
+    plinkos.push(new Plinko(j,200,5));
   }
 }
 
